@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff40cbff"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:gravity="center"
+            android:paddingBottom="5.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip">
+
+            <ImageView
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_gravity="center"
+                android:background="@drawable/icon_nobackground" />
+
+            <TextView
+                android:id="@id/TextView_Gas_Add_Title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.5"
+                android:gravity="left|center"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingTop="10.0dip"
+                android:text="주유 기록 입력"
+                android:textColor="#ffffffff"
+                android:textSize="17.0dip" />
+
+            <Button
+                android:id="@id/Button_Gas_Add_OK"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:background="@drawable/btn_click_dark_blue"
+                android:gravity="center"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="10.0dip"
+                android:text="저장"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+        </TableRow>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="55.0dip"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@id/Button_Gas_Add_Date"
+                    android:layout_width="362dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:background="@drawable/btn_click_white"
+                    android:gravity="center"
+                    android:padding="5.0dip"
+                    android:text="2014.06.02(월)"
+                    android:textColor="#ff000000"
+                    android:textSize="17.0dip" />
+
+                <TableRow
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip">
+
+                    <TableLayout
+                        android:id="@id/TableLayout_Gas_Add_Tab1"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1.0dip"
+                        android:layout_marginTop="1.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/btn_click_white"
+                        android:paddingBottom="13.0dip"
+                        android:paddingTop="13.0dip">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:paddingTop="5.0dip"
+                            android:text="주유 금액"
+                            android:textColor="#ff000000"
+                            android:textSize="18.0dip" />
+
+                        <TextView
+                            android:id="@id/TextView_Gas_Add1"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:text="0원"
+                            android:textColor="#ff000000"
+                            android:textSize="14.0dip" />
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@id/TableLayout_Gas_Add_Tab2"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="1.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/btn_click_white"
+                        android:paddingBottom="13.0dip"
+                        android:paddingTop="13.0dip">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:paddingTop="5.0dip"
+                            android:text="1L당 주유 금액"
+                            android:textColor="#ff000000"
+                            android:textSize="18.0dip" />
+
+                        <TextView
+                            android:id="@id/TextView_Gas_Add2"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:text="0원"
+                            android:textColor="#ff000000"
+                            android:textSize="14.0dip" />
+                    </TableLayout>
+                </TableRow>
+
+                <TableRow
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip">
+
+                    <TableLayout
+                        android:id="@id/TableLayout_Gas_Add_Tab5"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1.0dip"
+                        android:layout_marginTop="1.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/btn_click_white"
+                        android:paddingBottom="13.0dip"
+                        android:paddingTop="13.0dip">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:paddingTop="5.0dip"
+                            android:text="주유량"
+                            android:textColor="#ff000000"
+                            android:textSize="18.0dip" />
+
+                        <TextView
+                            android:id="@id/TextView_Gas_Add5"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:text="0L"
+                            android:textColor="#ff000000"
+                            android:textSize="14.0dip" />
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@id/TableLayout_Gas_Add_Tab6"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="1.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/btn_click_white"
+                        android:paddingBottom="13.0dip"
+                        android:paddingTop="13.0dip">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:paddingTop="5.0dip"
+                            android:text="연비"
+                            android:textColor="#ff000000"
+                            android:textSize="18.0dip" />
+
+                        <TextView
+                            android:id="@id/TextView_Gas_Add6"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:text="0km"
+                            android:textColor="#ff000000"
+                            android:textSize="14.0dip" />
+                    </TableLayout>
+                </TableRow>
+
+                <TableRow
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="10.0dip">
+
+                    <TableLayout
+                        android:id="@id/TableLayout_Gas_Add_Tab3"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="1.0dip"
+                        android:layout_marginTop="1.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/btn_click_white"
+                        android:paddingBottom="13.0dip"
+                        android:paddingTop="13.0dip">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:paddingTop="5.0dip"
+                            android:text="주행거리"
+                            android:textColor="#ff000000"
+                            android:textSize="18.0dip" />
+
+                        <TextView
+                            android:id="@id/TextView_Gas_Add3"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:text="0km"
+                            android:textColor="#ff000000"
+                            android:textSize="14.0dip" />
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@id/TableLayout_Gas_Add_Tab4"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="1.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/btn_click_white"
+                        android:paddingBottom="13.0dip"
+                        android:paddingTop="13.0dip">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:paddingTop="5.0dip"
+                            android:text="메모"
+                            android:textColor="#ff000000"
+                            android:textSize="18.0dip" />
+
+                        <TextView
+                            android:id="@id/TextView_Gas_Add4"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:paddingBottom="5.0dip"
+                            android:text=""
+                            android:textColor="#ff000000"
+                            android:textSize="14.0dip" />
+                    </TableLayout>
+                </TableRow>
+
+                <Button
+                    android:id="@id/Button_Gas_Add_Delete"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:background="@drawable/btn_click_red"
+                    android:gravity="center"
+                    android:padding="5.0dip"
+                    android:text="삭제"
+                    android:textColor="#ffffffff"
+                    android:textSize="17.0dip" />
+            </TableLayout>
+        </ScrollView>
+    </TableLayout>
+
+</RelativeLayout>

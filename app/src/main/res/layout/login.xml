@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cac7c7">
+
+
+    <TextView
+        android:text="USER LOGIN"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:id="@+id/textView00" />
+
+    <TextView
+        android:text="Welcome to the website"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView00"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="230dp"
+        android:layout_height="260dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/com_corner_round" />
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:inputType="textPassword"
+        android:hint=" Password"
+        android:ems="10"
+        android:background="#cac7c7"
+        android:layout_marginTop="11dp"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <Button
+
+        android:hint="Forgot Password?"
+        android:textSize="17dp"
+        android:background="#cac7c7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="forgotClick"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/car"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:background="?attr/colorPrimary"
+        android:text="Login"
+        android:textSize="20dp"
+        android:layout_width="210dp"
+        android:layout_height="25dp"
+        android:id="@+id/button2"
+        android:textColor="@android:color/background_light"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="25dp"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimary"
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/button3"
+        android:onClick="signupClick"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <CheckBox
+        android:text="자동로그인"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logcheck"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="  UserName"
+        android:id="@+id/editText"
+        android:background="#cac7c7"
+        android:layout_below="@+id/imageView"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginTop="12dp" />
+
+
+</RelativeLayout>

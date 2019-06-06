@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff40cbff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TableRow android:gravity="center" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip">
+            <ImageView android:layout_gravity="center" android:background="@drawable/icon_nobackground" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+            <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:gravity="left|center" android:id="@id/TextView_Get_Text_Title" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="메모 입력" android:layout_weight="5.5" />
+            <Button android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/Button_Get_Text_OK" android:background="@drawable/btn_click_dark_blue" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="저장" android:layout_weight="2.0" />
+        </TableRow>
+        <EditText android:textSize="17.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/EditText_Get_Text" android:background="@drawable/btn_click_white" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="" />
+        <TextView android:textSize="13.0dip" android:textColor="#ff0093ca" android:gravity="center" android:id="@id/TextView_Get_Text_Explain" android:paddingTop="10.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="입력 기록 - 눌러서 입력 가능" />
+        <GridView android:id="@id/GridView_GetText" android:paddingTop="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:listSelector="@null" android:cacheColorHint="#00000000" android:horizontalSpacing="1.0px" android:verticalSpacing="1.0px" android:stretchMode="columnWidth" android:numColumns="3" />
+    </TableLayout>
+</RelativeLayout>

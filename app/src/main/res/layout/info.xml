@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#cac7c7">
+
+
+        <TextView
+            android:id="@+id/ID_1"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:hint=" 아이디"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp" />
+
+        <EditText
+            android:id="@+id/pw"
+            android:layout_below="@+id/ID_1"
+            android:layout_alignLeft="@+id/ID_1"
+            android:layout_alignStart="@+id/ID_1"
+            android:background="@color/white"
+            android:hint=" 비밀번호"
+            android:textSize="20dp"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:layout_marginTop="1dp" />
+
+        <EditText
+            android:id="@+id/Text6"
+            android:layout_below="@+id/pw"
+            android:layout_alignLeft="@+id/pw"
+            android:layout_alignStart="@+id/pw"
+            android:background="@color/white"
+            android:textSize="20dp"
+            android:hint=" 비밀번호 재확인"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:layout_marginTop="1dp"
+            />
+
+        <TextView
+            android:background="@color/white"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:hint=" 이름"
+            android:textSize="20dp"
+            android:id="@+id/Text8"
+            android:gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/Text6"
+            android:layout_alignLeft="@+id/Text6"
+            android:layout_alignStart="@+id/Text6" />
+
+        <EditText
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:textSize="20dp"
+            android:inputType="phone"
+            android:hint=" 전화번호"
+            android:layout_marginTop="1dp"
+            android:id="@+id/Text4"
+            android:layout_below="@+id/Text8"
+            android:layout_alignLeft="@+id/Text8"
+            android:layout_alignStart="@+id/Text8" />
+
+        <EditText
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:inputType="textEmailAddress"
+            android:hint=" 이메일"
+            android:textSize="20dp"
+            android:background="@color/white"
+            android:id="@+id/Text7"
+            android:layout_below="@+id/Text4"
+            android:layout_alignLeft="@+id/Text4"
+            android:layout_alignStart="@+id/Text4"
+            android:maxLines="1"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:inputType="textLongMessage"
+            android:hint=" 생년원일"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:id="@+id/Etext8"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/Text8"
+            android:layout_alignLeft="@+id/Text8"
+            android:layout_alignStart="@+id/Text8" />
+
+        <EditText
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:hint=" 주소"
+            android:textSize="20dp"
+            android:inputType="textLongMessage"
+            android:background="@color/white"
+            android:layout_marginTop="1dp"
+            android:id="@+id/editText10"
+            android:layout_below="@+id/Text7"
+            android:layout_alignLeft="@+id/Text7"
+            android:layout_alignStart="@+id/Text7" />
+
+    </RelativeLayout>
+
+</ScrollView>

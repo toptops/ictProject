@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff40cbff"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TableRow
+            android:gravity="center"
+            android:paddingBottom="5.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip">
+
+            <ImageView
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_gravity="center"
+                android:background="@drawable/icon_nobackground" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="5.5"
+                android:id="@+id/ex"
+                android:gravity="left|center"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingTop="10.0dip"
+                android:text="초간단 차계부"
+                android:textColor="#ffffffff"
+                android:textSize="17.0dip" />
+
+            <Button
+                android:id="@+id/s"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:background="@drawable/btn_click_dark_blue"
+                android:gravity="center"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="10.0dip"
+                android:text="내정보수정"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+
+            <Button
+                android:id="@id/Button_Main_Settings"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:background="@drawable/btn_click_dark_blue"
+                android:gravity="center"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="10.0dip"
+                android:text="로그 아웃"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip">
+
+            <Button
+                android:id="@id/Button_Main_Date1"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1.0dip"
+                android:layout_weight="4.0"
+                android:background="@drawable/btn_click_white"
+                android:gravity="center"
+                android:paddingBottom="5.0dip"
+                android:paddingTop="5.0dip"
+                android:text="2014.06.01(월)"
+                android:textColor="#ff000000"
+                android:textSize="17.0dip" />
+
+            <Button
+                android:id="@id/Button_Main_Date2"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.0"
+                android:background="@drawable/btn_click_white"
+                android:gravity="center"
+                android:paddingBottom="5.0dip"
+                android:paddingTop="5.0dip"
+                android:text="2014.06.30(일)"
+                android:textColor="#ff000000"
+                android:textSize="17.0dip" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip">
+
+
+        </TableRow>
+
+        <TableLayout
+            android:id="@id/TableLayout_Main_Car"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="1.0dip"
+            android:background="@drawable/btn_click_white"
+            android:paddingBottom="12.0dip"
+            android:paddingTop="12.0dip">
+
+            <TableRow android:gravity="center">
+
+                <ImageView
+                    android:layout_width="35.0dip"
+                    android:layout_height="35.0dip"
+                    android:layout_gravity="center"
+                    android:background="@drawable/main_tab_car" />
+
+                <TextView
+                    android:id="@id/TextView_Main_CarName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center"
+                    android:paddingBottom="5.0dip"
+                    android:paddingTop="5.0dip"
+                    android:text=""
+                    android:textColor="#ff000000"
+                    android:textSize="18.0dip" />
+            </TableRow>
+
+
+
+            <TextView
+                android:id="@id/TextView_Main_CarNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10.0dip"
+                android:text=""
+                android:textColor="#ff000000"
+                android:textSize="14.0dip" />
+        </TableLayout>
+
+        <TableRow
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip">
+
+            <TableLayout
+                android:id="@id/TableLayout_Main_Tab1"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1.0dip"
+                android:layout_marginTop="1.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_click_white"
+                android:paddingBottom="12.0dip"
+                android:paddingTop="12.0dip">
+
+                <TableRow
+                    android:gravity="center"
+                    android:paddingBottom="10.0dip">
+
+                    <ImageView
+                        android:layout_width="35.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_gravity="center"
+                        android:background="@drawable/main_tab1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:paddingBottom="5.0dip"
+                        android:paddingTop="5.0dip"
+                        android:text="주행거리"
+                        android:textColor="#ff000000"
+                        android:textSize="18.0dip" />
+                </TableRow>
+
+                <TextView
+                    android:id="@id/TextView_Main_Count1"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="0km"
+                    android:textColor="#ff000000"
+                    android:textSize="14.0dip" />
+
+                <TextView
+                    android:id="@id/TextView_Main_Money1"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#ff000000"
+                    android:textSize="14.0dip" />
+            </TableLayout>
+
+            <TableLayout
+                android:id="@id/TableLayout_Main_Tab2"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_click_white"
+                android:paddingBottom="12.0dip"
+                android:paddingTop="12.0dip">
+
+                <TableRow
+                    android:gravity="center"
+                    android:paddingBottom="10.0dip">
+
+                    <ImageView
+                        android:layout_width="35.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_gravity="center"
+                        android:background="@drawable/main_tab2" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:paddingBottom="5.0dip"
+                        android:paddingTop="5.0dip"
+                        android:text="주유"
+                        android:textColor="#ff000000"
+                        android:textSize="18.0dip" />
+                </TableRow>
+
+                <TextView
+                    android:id="@id/TextView_Main_Count2"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="연비: 18km"
+                    android:textColor="#ff000000"
+                    android:textSize="14.0dip" />
+
+                <TextView
+                    android:id="@id/TextView_Main_Money2"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="0건 / 0원"
+                    android:textColor="#ff000000"
+                    android:textSize="14.0dip" />
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip">
+
+            <TableLayout
+                android:id="@id/TableLayout_Main_Tab3"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1.0dip"
+                android:layout_marginTop="1.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_click_white"
+                android:paddingBottom="12.0dip"
+                android:paddingTop="12.0dip">
+
+                <TableRow
+                    android:gravity="center"
+                    android:paddingBottom="10.0dip">
+
+                    <ImageView
+                        android:layout_width="35.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_gravity="center"
+                        android:background="@drawable/main_tab3" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:paddingBottom="5.0dip"
+                        android:paddingTop="5.0dip"
+                        android:text="정비"
+                        android:textColor="#ff000000"
+                        android:textSize="18.0dip" />
+                </TableRow>
+
+                <TextView
+                    android:id="@id/TextView_Main_Count3"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="0건"
+                    android:textColor="#ff000000"
+                    android:textSize="14.0dip" />
+
+                <TextView
+                    android:id="@id/TextView_Main_Money3"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="0원"
+                    android:textColor="#ff000000"
+                    android:textSize="14.0dip" />
+            </TableLayout>
+
+            <TableLayout
+                android:id="@id/TableLayout_Main_Tab4"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_click_white"
+                android:paddingBottom="12.0dip"
+                android:paddingTop="12.0dip">
+
+                <TableRow
+                    android:gravity="center"
+                    android:paddingBottom="10.0dip">
+
+                    <ImageView
+                        android:layout_width="35.0dip"
+                        android:layout_height="35.0dip"
+                        android:layout_gravity="center"
+                        android:background="@drawable/main_tab4" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:paddingBottom="5.0dip"
+                        android:paddingTop="5.0dip"
+                        android:text="기타"
+                        android:textColor="#ff000000"
+                        android:textSize="18.0dip" />
+                </TableRow>
+
+                <TextView
+                    android:id="@id/TextView_Main_Count4"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="0건"
+                    android:textColor="#ff000000"
+                    android:textSize="14.0dip" />
+
+                <TextView
+                    android:id="@id/TextView_Main_Money4"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="0원"
+                    android:textColor="#ff000000"
+                    android:textSize="14.0dip" />
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

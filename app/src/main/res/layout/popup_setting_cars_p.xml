@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10.0dip"
+    android:layout_marginRight="10.0dip"
+    android:layout_marginTop="1.0dip"
+    android:background="@drawable/btn_click_white"
+    android:paddingBottom="12.0dip"
+    android:paddingTop="12.0dip">
+
+    <TableRow android:gravity="center">
+
+        <ImageView
+            android:layout_width="35.0dip"
+            android:layout_height="35.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/main_tab_car" />
+
+        <TextView
+            android:id="@id/TextView_Setting_Cars_Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:paddingBottom="5.0dip"
+            android:paddingTop="5.0dip"
+            android:text="그랑이"
+            android:textColor="#ff000000"
+            android:textSize="18.0dip" />
+    </TableRow>
+
+    <TextView
+        android:id="@id/TextView_Setting_Cars_Number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10.0dip"
+        android:text="23너 1757"
+        android:textColor="#ff000000"
+        android:textSize="14.0dip" />
+
+    <TableRow
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip">
+
+        <Button
+            android:id="@id/Button_Setting_Cars_View"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_click_blue"
+            android:gravity="center"
+            android:paddingBottom="5.0dip"
+            android:paddingTop="5.0dip"
+            android:text="차계부 보기"
+            android:textColor="#ffffffff"
+            android:textSize="14.0dip" />
+
+        <Button
+            android:id="@id/Button_Setting_Cars_Modify"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_click_blue"
+            android:gravity="center"
+            android:paddingBottom="5.0dip"
+            android:paddingTop="5.0dip"
+            android:text="편집"
+            android:textColor="#ffffffff"
+            android:textSize="14.0dip" />
+    </TableRow>
+</TableLayout>

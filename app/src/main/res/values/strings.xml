@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="customize">Customize</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="undo">Undo</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
