@@ -1,13 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">My Application123</string>3
+    <string name="title_activity_main">MainActivity12</string>
 
-    <string name="customize">Customize</string>
-    <string name="show_dialog">Show Dialog</string>
-    <string name="tap">string test</string>
-    <string name="undo"> Undo </string>
-    <string name="title_activity_main2">Main2Activity</string>
-    <string name="f"/>
-
-    <string name="top">아아아아아아앙아</string>
+    <string name="customize">Customize123</string>
+    <string name="show_dialog">Show Dialog123</string>
+    <string name="undo">Undo123</string>
+    <string name="title_activity_main2">Main2Activity123</string>
 </resources>
